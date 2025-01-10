@@ -52,11 +52,19 @@ To install and play BoxQuest, follow these steps:
    ```bash
    cd BoxQuest_PuzzleGame
    ```
-3. Install required dependencies:
+3. Install distutils
+   ```bash
+   python -m ensurepip --upgrade
+   ```
+   ```bash
+   pip install setuptools
+   ```
+   
+5. Install required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-4. Run the game:
+6. Run the game:
    ```bash
    python game.py
    ```
